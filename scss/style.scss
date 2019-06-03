@@ -105,7 +105,11 @@ html
     padding: 20px;
     justify-content: center;
     align-content: center;
-@media only screen and (min-width:640px)
+    @media only screen and (max-width:499px)
+{
+  grid-template-columns: repeat(1,1fr);
+}
+@media only screen and (min-width:500px)
 {
   grid-template-columns: repeat(2,1fr);
 }
