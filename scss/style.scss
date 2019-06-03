@@ -1,0 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.container
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  .top-header
+  {
+    background: #3742fa;
+    height: 60px;
+    color: #3742fa + #888;
+  }
+}

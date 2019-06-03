@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr; }
+  .container .top-header {
+    background: #3742fa;
+    height: 60px; }
+
+/*# sourceMappingURL=style.css.map */
