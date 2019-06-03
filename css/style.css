@@ -1,13 +1,118 @@
-* {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
   padding: 0;
-  margin: 0; }
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
-.container {
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  height: 100%; }
+  html body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto; }
+
+.container .top-header {
+  background: #3742fa;
+  height: 60px;
+  color: white;
   display: grid;
-  grid-template-columns: 1fr; }
-  .container .top-header {
-    background: #3742fa;
-    height: 60px;
-    color: #bfcaff; }
+  align-items: center;
+  padding: 5px 30px 5px 15px;
+  font-size: 1rem;
+  font-family: tahoma;
+  grid-template-columns: auto auto;
+  justify-content: space-between; }
+.container .header-menu {
+  padding: 15px;
+  color: white;
+  background-color: #7ed6df;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1rem));
+  font-size: .8rem;
+  font-family: tahoma; }
+  .container .header-menu li {
+    text-align: center;
+    transition-duration: 1s;
+    padding: 15px;
+    background: #b066cf;
+    margin: 1px; }
+    .container .header-menu li:hover {
+      cursor: pointer;
+      background: #8e44ad;
+      border-radius: 10px; }
+.container .content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 20px;
+  justify-content: center;
+  align-content: center; }
+  @media only screen and (min-width: 640px) {
+    .container .content {
+      grid-template-columns: repeat(2, 1fr); } }
+  @media only screen and (min-width: 980px) {
+    .container .content {
+      grid-template-columns: repeat(4, 1fr); } }
+  .container .content .course {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: #00b894;
+    height: 150px;
+    font-size: 1.3rem;
+    font-family: tahoma;
+    color: white;
+    font-weight: bold; }
+
+.footer {
+  display: grid;
+  height: 50px;
+  background: #130f40;
+  color: white;
+  text-align: center;
+  font-family: tahoma;
+  font-size: 15px;
+  align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
