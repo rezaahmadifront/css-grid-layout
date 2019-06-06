@@ -7,10 +7,17 @@ staructre project
 css-grid-layout/
 <br>
 └── index.html
+<br>
     ├── scss/
+    <br>
     │   ├── style.scss
+    <br>
     │   ├── style.scss.map
-    └── css/
-        ├── style.css
-        ├── style.css.map
+    <br>
+    ├── css/
+    <br>
+    │   ├── style.ccss
+    <br>
+    │   ├── style.ccss.map
+    <br>
      
