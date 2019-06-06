@@ -1,8 +1,8 @@
-###  css-grid-layout
+###  css-grid-layout <img src="https://img.shields.io/apm/l/1.svg?style=flat-square">
 # this is one an example for development
 
 
-staructre project https://img.shields.io/apm/l/1.svg?style=flat-square
+staructre project 
 <br>
 css-grid-layout/
 <br>
