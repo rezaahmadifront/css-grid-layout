@@ -15,7 +15,7 @@ css-grid-layout/
     │   ├── style.scss.map
     <br>
     └── css/
-    <br>
+    
         ├── style.css
         <br>
         ├── style.css.map
