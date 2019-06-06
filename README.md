@@ -1,4 +1,4 @@
-###  css-grid-layout <img src="https://img.shields.io/apm/l/1.svg?style=flat-square">
+###  css-grid-layout <img src="/github/license/:user/:repo.svg">
 # this is one an example for development
 
 
