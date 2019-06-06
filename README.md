@@ -1,5 +1,5 @@
 ## css-grid-layout
-#this is one an example for development
+# this is one an example for development
 
 
 staructre project
